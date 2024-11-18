@@ -20,6 +20,8 @@ public class HealthIndex extends JFrame {
 
         setTitle("Health Index");
         setLayout(new GridBagLayout());
+        ImageIcon icon = new ImageIcon(getClass().getResource("/assets/logo.png"));
+        setIconImage(icon.getImage());
         setLocationRelativeTo(null);
         setDefaultCloseOperation(HealthIndex.EXIT_ON_CLOSE);
         gbc.insets = new Insets(3, 3, 3, 3);
