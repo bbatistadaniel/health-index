@@ -6,7 +6,7 @@
 
     <groupId>br.com.bbatistadaniel</groupId>
     <artifactId>health-index</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
 
     <properties>
         <maven.compiler.source>22</maven.compiler.source>
